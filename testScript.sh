@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "This is a test script for jenkins CI CD test"
+echo "This is a test script for jenkins CI CD test v2"
