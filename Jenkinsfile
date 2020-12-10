@@ -5,13 +5,18 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building project!!!'
-                echo pwd()
             }
         }
         
         stage('Test') {
             steps {
                 sh './testScript.sh'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying code!!!'
             }
         }
     }
